@@ -1,0 +1,72 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+text-shadow: 2px 1px red;
+margin-top: 20px;
+}
+
+body{
+    width: 100%;
+    background:linear-gradient(rgba(206, 8, 189, 0.37),rgb(20, 24, 20)),url(./gp_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    overflow: hidden;
+}
+#another{
+    position: absolute;
+    margin: 10px;
+    padding: 20px;
+    font-size: 80px;
+    top: 45px;   
+}
+
+#points{
+ position: absolute;
+ margin: 20px;
+ padding: 1px;
+ font-size: 80px;
+ top: 200px;
+
+}
+#board{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    background:url(./space2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+     margin-top: 5%;
+}
+#jet{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background: url(./rocket.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    bottom: 0;
+}
+
+.rocks{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    background: url(./gokul.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.bullets{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 40px;
+    background: url(./bullet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+}
